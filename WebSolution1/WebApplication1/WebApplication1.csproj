@@ -102,6 +102,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="captain2\formatLabel.aspx" />
+    <Content Include="captain2\labelform.aspx" />
+    <Content Include="captain2\showliteral.aspx" />
+    <Content Include="captain2\ShowTextBox.aspx" />
+    <Content Include="captain2\textboxautopostback.aspx" />
     <Content Include="firstpage.aspx" />
     <Content Include="Global.asax" />
     <Content Include="ShowIsPostBack.aspx" />
@@ -111,6 +116,41 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="captain2\formatLabel.aspx.cs">
+      <DependentUpon>formatLabel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="captain2\formatLabel.aspx.designer.cs">
+      <DependentUpon>formatLabel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="captain2\labelform.aspx.cs">
+      <DependentUpon>labelform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="captain2\labelform.aspx.designer.cs">
+      <DependentUpon>labelform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="captain2\showliteral.aspx.cs">
+      <DependentUpon>showliteral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="captain2\showliteral.aspx.designer.cs">
+      <DependentUpon>showliteral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="captain2\ShowTextBox.aspx.cs">
+      <DependentUpon>ShowTextBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="captain2\ShowTextBox.aspx.designer.cs">
+      <DependentUpon>ShowTextBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="captain2\textboxautopostback.aspx.cs">
+      <DependentUpon>textboxautopostback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="captain2\textboxautopostback.aspx.designer.cs">
+      <DependentUpon>textboxautopostback.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
