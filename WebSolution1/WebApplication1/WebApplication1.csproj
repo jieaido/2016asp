@@ -102,6 +102,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="captain2\ButtonCommand.aspx" />
+    <Content Include="captain2\ButtonExpando.aspx" />
+    <Content Include="captain2\ButtonOnClientClick.aspx" />
+    <Content Include="captain2\ButtonSerach.aspx" />
+    <Content Include="captain2\ButtonSerachResults.aspx" />
     <Content Include="captain2\formatLabel.aspx" />
     <Content Include="captain2\labelform.aspx" />
     <Content Include="captain2\showliteral.aspx" />
@@ -116,6 +121,41 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="captain2\ButtonCommand.aspx.cs">
+      <DependentUpon>ButtonCommand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="captain2\ButtonCommand.aspx.designer.cs">
+      <DependentUpon>ButtonCommand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="captain2\ButtonExpando.aspx.cs">
+      <DependentUpon>ButtonExpando.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="captain2\ButtonExpando.aspx.designer.cs">
+      <DependentUpon>ButtonExpando.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="captain2\ButtonOnClientClick.aspx.cs">
+      <DependentUpon>ButtonOnClientClick.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="captain2\ButtonOnClientClick.aspx.designer.cs">
+      <DependentUpon>ButtonOnClientClick.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="captain2\ButtonSerach.aspx.cs">
+      <DependentUpon>ButtonSerach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="captain2\ButtonSerach.aspx.designer.cs">
+      <DependentUpon>ButtonSerach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="captain2\ButtonSerachResults.aspx.cs">
+      <DependentUpon>ButtonSerachResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="captain2\ButtonSerachResults.aspx.designer.cs">
+      <DependentUpon>ButtonSerachResults.aspx</DependentUpon>
+    </Compile>
     <Compile Include="captain2\formatLabel.aspx.cs">
       <DependentUpon>formatLabel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
