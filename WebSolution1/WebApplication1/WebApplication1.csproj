@@ -102,6 +102,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AspNet.ScriptManager.jQuery.dll" />
     <Content Include="captain2\ButtonCommand.aspx" />
     <Content Include="captain2\ButtonExpando.aspx" />
     <Content Include="captain2\ButtonOnClientClick.aspx" />
@@ -112,8 +113,10 @@
     <Content Include="captain2\showliteral.aspx" />
     <Content Include="captain2\ShowTextBox.aspx" />
     <Content Include="captain2\textboxautopostback.aspx" />
+    <Content Include="Captain3\OrderForm.aspx" />
     <Content Include="firstpage.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="ShowIsPostBack.aspx" />
     <Content Include="ShowPageEvents.aspx" />
     <Content Include="Web.config" />
@@ -190,6 +193,13 @@
     </Compile>
     <Compile Include="captain2\textboxautopostback.aspx.designer.cs">
       <DependentUpon>textboxautopostback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain3\OrderForm.aspx.cs">
+      <DependentUpon>OrderForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain3\OrderForm.aspx.designer.cs">
+      <DependentUpon>OrderForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
