@@ -16,7 +16,7 @@
         <asp:CustomValidator ID="valCommnets" ControlToValidate="txtComments" Text="必须少于10个字符" OnServerValidate="valCommnets_OnServerValidate" runat="server" ErrorMessage="CustomValidator"></asp:CustomValidator>
         <br/>
         <asp:Button ID="Button1" runat="server" Text="Button" />
-
+        
     </div>
     </form>
 </body>
