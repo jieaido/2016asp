@@ -192,6 +192,9 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Captain3\OrderForm2.aspx" />
+    <Content Include="Captain3\ShowCustomValidator.aspx" />
+    <Content Include="Captain3\ShowLengthValidator.aspx" />
+    <Content Include="Captain3\WebForm1.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -356,6 +359,9 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
+    <Content Include="App_Code\LengthValidator.cs" />
+    <None Include="App_Code\LengthValidator2.cs" />
+    <Content Include="App_Code\lev.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -373,6 +379,27 @@
     </Compile>
     <Compile Include="Captain3\OrderForm2.aspx.designer.cs">
       <DependentUpon>OrderForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain3\ShowCustomValidator.aspx.cs">
+      <DependentUpon>ShowCustomValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain3\ShowCustomValidator.aspx.designer.cs">
+      <DependentUpon>ShowCustomValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain3\ShowLengthValidator.aspx.cs">
+      <DependentUpon>ShowLengthValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain3\ShowLengthValidator.aspx.designer.cs">
+      <DependentUpon>ShowLengthValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain3\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain3\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

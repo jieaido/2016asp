@@ -20,6 +20,7 @@ namespace WebApplication2.Captain3
                 LblResult.Text = @"<br/> Product:" + txtProductName.Text + "<br/>Price:" + txtProductPrice.Text +
                                  "<br/>Quantity:" + txtProductQuantity.Text;
             }
+         
         }
     }
 }

@@ -76,15 +76,6 @@ namespace WebApplication2.Captain3 {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator reqProductPrice;
         
         /// <summary>
-        /// cmpProductPrice 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator cmpProductPrice;
-        
-        /// <summary>
         /// lblProductQuantity 控件。
         /// </summary>
         /// <remarks>
@@ -119,6 +110,15 @@ namespace WebApplication2.Captain3 {
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.CompareValidator cmpProductQuantity;
+        
+        /// <summary>
+        /// RequiredFieldValidator1 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
         
         /// <summary>
         /// btnsubmit 控件。

@@ -19,13 +19,14 @@
         <asp:Label ID="lblProductPrice" AssociatedControlID="txtProductPrice"  runat="server" Text="Product Price"></asp:Label>
         <asp:TextBox ID="txtProductPrice"  Columns="5" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="reqProductPrice" ControlToValidate="txtProductPrice" Text="(Required)" Display="Dynamic" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
-        <asp:CompareValidator ID="cmpProductPrice" ControlToValidate="txtProductPrice" Text="(Invalid Price)" Operator="DataTypeCheck" Type="Currency" runat="server" ErrorMessage="CompareValidator"></asp:CompareValidator>
+        <asp:CompareValidator ID="cmpProductPrice" ControlToValidate="txtProductPrice"  ="(Invalid Price)" Operator="DataTypeCheck" Type="Currency" runat="server" ErrorMessage="CompareValidator"></asp:CompareValidator>
         <br/><br/>
         <asp:Label ID="lblProductQuantity" runat="server" Text="Product Quantity"></asp:Label>
         <asp:TextBox runat="server" ID="txtProductQuantity" Columns="5" ></asp:TextBox>
         <asp:RequiredFieldValidator ID="reqProductQuantity" ControlToValidate="txtProductQuantity" Text="(required)" Display="Dynamic" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
         <asp:CompareValidator ID="cmpProductQuantity" ControlToValidate="txtProductQuantity" Text="(invalid Quantity)" Operator="DataTypeCheck" Type="Integer" runat="server" ErrorMessage="CompareValidator"></asp:CompareValidator>
          <br/><br/>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" Text="<img src='error.gif' alt='must enter'" runat="server" ValidationGroup="" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
         <asp:Button ID="btnsubmit"  runat="server" Text="submit Product Order" OnClick="btnsubmit_OnClick" />
         <asp:Label ID="LblResult" runat="server" ></asp:Label>
         <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
