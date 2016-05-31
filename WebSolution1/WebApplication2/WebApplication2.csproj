@@ -193,6 +193,8 @@
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Captain3\OrderForm2.aspx" />
     <Content Include="Captain3\ShowCustomValidator.aspx" />
+    <Content Include="Captain3\WebForm1.aspx" />
+    <Content Include="Captain3\WebForm2.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -383,6 +385,13 @@
     </Compile>
     <Compile Include="Captain3\ShowCustomValidator.aspx.designer.cs">
       <DependentUpon>ShowCustomValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain3\WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain3\WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
