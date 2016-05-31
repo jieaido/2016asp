@@ -22,6 +22,24 @@
         <h3>BulletedList</h3>
         <asp:BulletedList ID="BulletedList1" runat="server" DataSourceID="SrcMovies" DataTextField="title" DataValueField="title"></asp:BulletedList>
     </div>
+     <div class="floater">
+         <asp:CheckBoxList ID="CheckBoxList1" DataSourceID="SrcMovies" DataTextField="title" runat="server"></asp:CheckBoxList>
+     </div>
+        <div class="floater">
+            <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SrcMovies" DataTextField="title" DataValueField="title">
+            </asp:DropDownList>
+        </div>
+        <div class="floater">
+            
+            <asp:ListBox ID="ListBox1" runat="server" DataSourceID="SrcMovies" DataTextField="title" DataValueField="title" SelectionMode="Multiple"></asp:ListBox>
+            
+        </div>
+        <div class="floater">
+            
+            <asp:RadioButtonList ID="RadioButtonList1" runat="server" DataSourceID="SrcMovies" DataTextField="title" DataValueField="title">
+            </asp:RadioButtonList>
+            
+        </div>
 
     <asp:SqlDataSource ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|MyDatabase.mdf;Integrated Security=True" 
         ID="SrcMovies" 
