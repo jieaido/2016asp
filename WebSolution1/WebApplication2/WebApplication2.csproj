@@ -195,6 +195,7 @@
     <Content Include="App_Data\EmployeeDB_log.ldf">
       <DependentUpon>EmployeeDB.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\Movies.xml" />
     <Content Include="App_Data\MyDatabase.mdf" />
     <Content Include="App_Data\MyDatabase_log.ldf">
       <DependentUpon>MyDatabase.mdf</DependentUpon>
@@ -203,6 +204,9 @@
     <Content Include="Captain3\ShowCustomValidator.aspx" />
     <Content Include="Captain3\WebForm1.aspx" />
     <Content Include="Captain3\WebForm2.aspx" />
+    <Content Include="Captain8\ShowControlParameter.aspx" />
+    <Content Include="Captain8\ShowFonts.aspx" />
+    <Content Include="Captain8\ShowhierarchicalDataBound.aspx" />
     <Content Include="Captain8\ShowListControl.aspx" />
     <Content Include="Captain8\ShowTabularDataBound.aspx" />
     <Content Include="Contact.aspx" />
@@ -402,6 +406,27 @@
     </Compile>
     <Compile Include="Captain3\WebForm2.aspx.designer.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain8\ShowControlParameter.aspx.cs">
+      <DependentUpon>ShowControlParameter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain8\ShowControlParameter.aspx.designer.cs">
+      <DependentUpon>ShowControlParameter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain8\ShowFonts.aspx.cs">
+      <DependentUpon>ShowFonts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain8\ShowFonts.aspx.designer.cs">
+      <DependentUpon>ShowFonts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain8\ShowhierarchicalDataBound.aspx.cs">
+      <DependentUpon>ShowhierarchicalDataBound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain8\ShowhierarchicalDataBound.aspx.designer.cs">
+      <DependentUpon>ShowhierarchicalDataBound.aspx</DependentUpon>
     </Compile>
     <Compile Include="Captain8\ShowListControl.aspx.cs">
       <DependentUpon>ShowListControl.aspx</DependentUpon>
