@@ -96,28 +96,30 @@
     </div>
          <div class="floater">
     
-             <asp:ListView ID="ListView1" runat="server" DataSourceID="SrcMovies" GroupItemCount="3">
+             <asp:ListView ID="ListView1" runat="server" DataSourceID="SrcMovies">
                  <AlternatingItemTemplate>
-                     <td runat="server" style="background-color:#FFF8DC;">title:
-                         <asp:Label ID="titleLabel" runat="server" Text='<%# Eval("title") %>' />
-                         <br />
-                         director:
-                         <asp:Label ID="directorLabel" runat="server" Text='<%# Eval("director") %>' />
-                         <br />
-                     </td>
+                     <tr style="background-color: #FAFAD2;color: #284775;">
+                         <td>
+                             <asp:Label ID="titleLabel" runat="server" Text='<%# Eval("title") %>' />
+                         </td>
+                         <td>
+                             <asp:Label ID="directorLabel" runat="server" Text='<%# Eval("director") %>' />
+                         </td>
+                     </tr>
                  </AlternatingItemTemplate>
                  <EditItemTemplate>
-                     <td runat="server" style="background-color:#008A8C;color: #FFFFFF;">title:
-                         <asp:TextBox ID="titleTextBox" runat="server" Text='<%# Bind("title") %>' />
-                         <br />
-                         director:
-                         <asp:TextBox ID="directorTextBox" runat="server" Text='<%# Bind("director") %>' />
-                         <br />
-                         <asp:Button ID="UpdateButton" runat="server" CommandName="Update" Text="更新" />
-                         <br />
-                         <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="取消" />
-                         <br />
-                     </td>
+                     <tr style="background-color: #FFCC66;color: #000080;">
+                         <td>
+                             <asp:Button ID="UpdateButton" runat="server" CommandName="Update" Text="更新" />
+                             <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="取消" />
+                         </td>
+                         <td>
+                             <asp:TextBox ID="titleTextBox" runat="server" Text='<%# Bind("title") %>' />
+                         </td>
+                         <td>
+                             <asp:TextBox ID="directorTextBox" runat="server" Text='<%# Bind("director") %>' />
+                         </td>
+                     </tr>
                  </EditItemTemplate>
                  <EmptyDataTemplate>
                      <table runat="server" style="background-color: #FFFFFF;border-collapse: collapse;border-color: #999999;border-style:none;border-width:1px;">
@@ -126,49 +128,47 @@
                          </tr>
                      </table>
                  </EmptyDataTemplate>
-                 <EmptyItemTemplate>
-                     <td runat="server" />
-                 </EmptyItemTemplate>
-                 <GroupTemplate>
-                     <tr id="itemPlaceholderContainer" runat="server">
-                         <td id="itemPlaceholder" runat="server"></td>
-                     </tr>
-                 </GroupTemplate>
                  <InsertItemTemplate>
-                     <td runat="server" style="">title:
-                         <asp:TextBox ID="titleTextBox" runat="server" Text='<%# Bind("title") %>' />
-                         <br />
-                         director:
-                         <asp:TextBox ID="directorTextBox" runat="server" Text='<%# Bind("director") %>' />
-                         <br />
-                         <asp:Button ID="InsertButton" runat="server" CommandName="Insert" Text="插入" />
-                         <br />
-                         <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="清除" />
-                         <br />
-                     </td>
+                     <tr style="">
+                         <td>
+                             <asp:Button ID="InsertButton" runat="server" CommandName="Insert" Text="插入" />
+                             <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="清除" />
+                         </td>
+                         <td>
+                             <asp:TextBox ID="titleTextBox" runat="server" Text='<%# Bind("title") %>' />
+                         </td>
+                         <td>
+                             <asp:TextBox ID="directorTextBox" runat="server" Text='<%# Bind("director") %>' />
+                         </td>
+                     </tr>
                  </InsertItemTemplate>
                  <ItemTemplate>
-                     <td runat="server" style="background-color:#DCDCDC;color: #000000;">title:
-                         <asp:Label ID="titleLabel" runat="server" Text='<%# Eval("title") %>' />
-                         <br />
-                         director:
-                         <asp:Label ID="directorLabel" runat="server" Text='<%# Eval("director") %>' />
-                         <br />
-                     </td>
+                     <tr style="background-color: #FFFBD6;color: #333333;">
+                         <td>
+                             <asp:Label ID="titleLabel" runat="server" Text='<%# Eval("title") %>' />
+                         </td>
+                         <td>
+                             <asp:Label ID="directorLabel" runat="server" Text='<%# Eval("director") %>' />
+                         </td>
+                     </tr>
                  </ItemTemplate>
                  <LayoutTemplate>
                      <table runat="server">
                          <tr runat="server">
                              <td runat="server">
-                                 <table id="groupPlaceholderContainer" runat="server" border="1" style="background-color: #FFFFFF;border-collapse: collapse;border-color: #999999;border-style:none;border-width:1px;font-family: Verdana, Arial, Helvetica, sans-serif;">
-                                     <tr id="groupPlaceholder" runat="server">
+                                 <table id="itemPlaceholderContainer" runat="server" border="1" style="background-color: #FFFFFF;border-collapse: collapse;border-color: #999999;border-style:none;border-width:1px;font-family: Verdana, Arial, Helvetica, sans-serif;">
+                                     <tr runat="server" style="background-color: #FFFBD6;color: #333333;">
+                                         <th runat="server">title</th>
+                                         <th runat="server">director</th>
+                                     </tr>
+                                     <tr id="itemPlaceholder" runat="server">
                                      </tr>
                                  </table>
                              </td>
                          </tr>
                          <tr runat="server">
-                             <td runat="server" style="text-align: center;background-color: #CCCCCC;font-family: Verdana, Arial, Helvetica, sans-serif;color: #000000;">
-                                 <asp:DataPager ID="DataPager1" runat="server" PageSize="12">
+                             <td runat="server" style="text-align: center;background-color: #FFCC66; font-family: Verdana, Arial, Helvetica, sans-serif;color: #333333;">
+                                 <asp:DataPager ID="DataPager1" runat="server">
                                      <Fields>
                                          <asp:NextPreviousPagerField ButtonType="Button" ShowFirstPageButton="True" ShowLastPageButton="True" />
                                      </Fields>
@@ -178,13 +178,14 @@
                      </table>
                  </LayoutTemplate>
                  <SelectedItemTemplate>
-                     <td runat="server" style="background-color:#008A8C;font-weight: bold;color: #FFFFFF;">title:
-                         <asp:Label ID="titleLabel" runat="server" Text='<%# Eval("title") %>' />
-                         <br />
-                         director:
-                         <asp:Label ID="directorLabel" runat="server" Text='<%# Eval("director") %>' />
-                         <br />
-                     </td>
+                     <tr style="background-color: #FFCC66;font-weight: bold;color: #000080;">
+                         <td>
+                             <asp:Label ID="titleLabel" runat="server" Text='<%# Eval("title") %>' />
+                         </td>
+                         <td>
+                             <asp:Label ID="directorLabel" runat="server" Text='<%# Eval("director") %>' />
+                         </td>
+                     </tr>
                  </SelectedItemTemplate>
              </asp:ListView>
     
