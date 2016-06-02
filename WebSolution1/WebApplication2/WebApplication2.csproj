@@ -205,7 +205,9 @@
     <Content Include="Captain3\WebForm1.aspx" />
     <Content Include="Captain3\WebForm2.aspx" />
     <Content Include="Captain8\ShowControlParameter.aspx" />
+    <Content Include="Captain8\ShowDataList.aspx" />
     <Content Include="Captain8\ShowFonts.aspx" />
+    <Content Include="Captain8\ShowFormView.aspx" />
     <Content Include="Captain8\ShowhierarchicalDataBound.aspx" />
     <Content Include="Captain8\ShowItemTemplate.aspx" />
     <Content Include="Captain8\ShowLinks.aspx" />
@@ -416,12 +418,26 @@
     <Compile Include="Captain8\ShowControlParameter.aspx.designer.cs">
       <DependentUpon>ShowControlParameter.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Captain8\ShowDataList.aspx.cs">
+      <DependentUpon>ShowDataList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain8\ShowDataList.aspx.designer.cs">
+      <DependentUpon>ShowDataList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Captain8\ShowFonts.aspx.cs">
       <DependentUpon>ShowFonts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Captain8\ShowFonts.aspx.designer.cs">
       <DependentUpon>ShowFonts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain8\ShowFormView.aspx.cs">
+      <DependentUpon>ShowFormView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain8\ShowFormView.aspx.designer.cs">
+      <DependentUpon>ShowFormView.aspx</DependentUpon>
     </Compile>
     <Compile Include="Captain8\ShowhierarchicalDataBound.aspx.cs">
       <DependentUpon>ShowhierarchicalDataBound.aspx</DependentUpon>
