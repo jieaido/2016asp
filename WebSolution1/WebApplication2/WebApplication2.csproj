@@ -207,6 +207,8 @@
     <Content Include="Captain8\ShowControlParameter.aspx" />
     <Content Include="Captain8\ShowFonts.aspx" />
     <Content Include="Captain8\ShowhierarchicalDataBound.aspx" />
+    <Content Include="Captain8\ShowItemTemplate.aspx" />
+    <Content Include="Captain8\ShowLinks.aspx" />
     <Content Include="Captain8\ShowListControl.aspx" />
     <Content Include="Captain8\ShowTabularDataBound.aspx" />
     <Content Include="Contact.aspx" />
@@ -427,6 +429,20 @@
     </Compile>
     <Compile Include="Captain8\ShowhierarchicalDataBound.aspx.designer.cs">
       <DependentUpon>ShowhierarchicalDataBound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain8\ShowItemTemplate.aspx.cs">
+      <DependentUpon>ShowItemTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain8\ShowItemTemplate.aspx.designer.cs">
+      <DependentUpon>ShowItemTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain8\ShowLinks.aspx.cs">
+      <DependentUpon>ShowLinks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain8\ShowLinks.aspx.designer.cs">
+      <DependentUpon>ShowLinks.aspx</DependentUpon>
     </Compile>
     <Compile Include="Captain8\ShowListControl.aspx.cs">
       <DependentUpon>ShowListControl.aspx</DependentUpon>
