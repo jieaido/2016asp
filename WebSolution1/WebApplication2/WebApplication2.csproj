@@ -204,6 +204,7 @@
     <Content Include="Captain3\ShowCustomValidator.aspx" />
     <Content Include="Captain3\WebForm1.aspx" />
     <Content Include="Captain3\WebForm2.aspx" />
+    <Content Include="Captain8\EmployeeDirectory.aspx" />
     <Content Include="Captain8\ShowControlParameter.aspx" />
     <Content Include="Captain8\ShowDataList.aspx" />
     <Content Include="Captain8\ShowFonts.aspx" />
@@ -410,6 +411,13 @@
     </Compile>
     <Compile Include="Captain3\WebForm2.aspx.designer.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain8\EmployeeDirectory.aspx.cs">
+      <DependentUpon>EmployeeDirectory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain8\EmployeeDirectory.aspx.designer.cs">
+      <DependentUpon>EmployeeDirectory.aspx</DependentUpon>
     </Compile>
     <Compile Include="Captain8\ShowControlParameter.aspx.cs">
       <DependentUpon>ShowControlParameter.aspx</DependentUpon>
