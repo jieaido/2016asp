@@ -214,6 +214,13 @@
     <Content Include="Captain8\ShowLinks.aspx" />
     <Content Include="Captain8\ShowListControl.aspx" />
     <Content Include="Captain8\ShowTabularDataBound.aspx" />
+    <Content Include="Captain9\ShowControlParamters.aspx" />
+    <Content Include="Captain9\ShowDataSourceMode.aspx" />
+    <Content Include="Captain9\ShowDetailsViewExplicit.aspx" />
+    <Content Include="Captain9\ShowFitlerExpression.aspx" />
+    <Content Include="Captain9\ShowInlineCommond.aspx" />
+    <Content Include="Captain9\ShowQueryStringParameterDetails.aspx" />
+    <Content Include="Captain9\ShowQueryStringParametersMaster.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -481,6 +488,55 @@
     </Compile>
     <Compile Include="Captain8\ShowTabularDataBound.aspx.designer.cs">
       <DependentUpon>ShowTabularDataBound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain9\ShowControlParamters.aspx.cs">
+      <DependentUpon>ShowControlParamters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain9\ShowControlParamters.aspx.designer.cs">
+      <DependentUpon>ShowControlParamters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain9\ShowDataSourceMode.aspx.cs">
+      <DependentUpon>ShowDataSourceMode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain9\ShowDataSourceMode.aspx.designer.cs">
+      <DependentUpon>ShowDataSourceMode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain9\ShowDetailsViewExplicit.aspx.cs">
+      <DependentUpon>ShowDetailsViewExplicit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain9\ShowDetailsViewExplicit.aspx.designer.cs">
+      <DependentUpon>ShowDetailsViewExplicit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain9\ShowFitlerExpression.aspx.cs">
+      <DependentUpon>ShowFitlerExpression.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain9\ShowFitlerExpression.aspx.designer.cs">
+      <DependentUpon>ShowFitlerExpression.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain9\ShowInlineCommond.aspx.cs">
+      <DependentUpon>ShowInlineCommond.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain9\ShowInlineCommond.aspx.designer.cs">
+      <DependentUpon>ShowInlineCommond.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain9\ShowQueryStringParameterDetails.aspx.cs">
+      <DependentUpon>ShowQueryStringParameterDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain9\ShowQueryStringParameterDetails.aspx.designer.cs">
+      <DependentUpon>ShowQueryStringParameterDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Captain9\ShowQueryStringParametersMaster.aspx.cs">
+      <DependentUpon>ShowQueryStringParametersMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captain9\ShowQueryStringParametersMaster.aspx.designer.cs">
+      <DependentUpon>ShowQueryStringParametersMaster.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
